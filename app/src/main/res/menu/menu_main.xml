@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/simple"
+        android:orderInCategory="100"
+        android:title="Simple"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/styled"
+        android:orderInCategory="100"
+        android:title="Styled"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/withAction"
+        android:orderInCategory="100"
+        android:title="Action"
+        app:showAsAction="never"
+        />
+
+</menu>
